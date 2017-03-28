@@ -10,7 +10,7 @@ CLI client tool for the IOTA reference implementation (IRI) using gIOTA lib.
 Install
 ====
 ```
-    $ go get -u github.com/iotaledger/giota/giotan
+    $ go get -u github.com/iotaledger/giotan
 ```
 
 Features
