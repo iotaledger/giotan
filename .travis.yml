@@ -1,0 +1,19 @@
+language: go
+
+go:
+  - 1.7
+  - 1.8
+
+before_install:
+- go get -u github.com/alecthomas/gometalinter
+- go get -u github.com/mattn/goveralls
+- export PATH=$PATH:$GOPATH/bin
+- gometalinter --install --update
+
+script:
+- travis_wait 30 go test -v -covermode=count -coverprofile=coverage.out -timeout 100m
+
+after_success:
+- gometalinter -e bindata --deadline=1000s ./...
+- goveralls -coverprofile=coverage.out -service=travis-ci
+
