@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/iotaledger/giotan.svg?branch=master)](https://travis-ci.org/iotaledger/giotan)
+[![GoDoc](https://godoc.org/github.com/iotaledger/giotann?status.svg)](https://godoc.org/github.com/iotaledger/giotan)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iotaledger/giotan/master/LICENSE)
+
 gIOTA CLI tool
 =====
 
