@@ -49,8 +49,8 @@ in flux and there are going to be breaking changes.
 TODO
 =========================
 
-* More functions(?)
-* More tests :(
+* [ ] More functions(?)
+* [ ] More tests :(
 
 <hr>
 
